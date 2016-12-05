@@ -93,6 +93,7 @@
             this.button3 = new System.Windows.Forms.Button();
             this.Roomlist = new System.Windows.Forms.TextBox();
             this.txtWelcome = new System.Windows.Forms.TextBox();
+            this.lblNoroom = new System.Windows.Forms.Label();
             this.tab.SuspendLayout();
             this.studentWill.SuspendLayout();
             this.studentHabit.SuspendLayout();
@@ -100,13 +101,14 @@
             // 
             // txtStudentID
             // 
-            this.txtStudentID.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtStudentID.ForeColor = System.Drawing.SystemColors.ScrollBar;
-            this.txtStudentID.Location = new System.Drawing.Point(102, 234);
+            this.txtStudentID.BackColor = System.Drawing.SystemColors.InactiveBorder;
+            this.txtStudentID.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtStudentID.ForeColor = System.Drawing.SystemColors.InfoText;
+            this.txtStudentID.Location = new System.Drawing.Point(53, 238);
             this.txtStudentID.MaxLength = 10;
             this.txtStudentID.Multiline = true;
             this.txtStudentID.Name = "txtStudentID";
-            this.txtStudentID.Size = new System.Drawing.Size(247, 44);
+            this.txtStudentID.Size = new System.Drawing.Size(331, 44);
             this.txtStudentID.TabIndex = 1;
             this.txtStudentID.Text = "Student ID";
             this.txtStudentID.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -117,9 +119,9 @@
             this.lblPlease.BackColor = System.Drawing.Color.LightBlue;
             this.lblPlease.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.lblPlease.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblPlease.Location = new System.Drawing.Point(102, 146);
+            this.lblPlease.Location = new System.Drawing.Point(50, 143);
             this.lblPlease.Name = "lblPlease";
-            this.lblPlease.Size = new System.Drawing.Size(370, 74);
+            this.lblPlease.Size = new System.Drawing.Size(463, 89);
             this.lblPlease.TabIndex = 2;
             this.lblPlease.Text = "\r\n           Please  input  your studentID             \r\n\r\n";
             // 
@@ -128,10 +130,10 @@
             this.btnEnter.BackColor = System.Drawing.Color.Pink;
             this.btnEnter.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnEnter.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnEnter.ForeColor = System.Drawing.SystemColors.Window;
-            this.btnEnter.Location = new System.Drawing.Point(356, 234);
+            this.btnEnter.ForeColor = System.Drawing.SystemColors.InactiveBorder;
+            this.btnEnter.Location = new System.Drawing.Point(390, 239);
             this.btnEnter.Name = "btnEnter";
-            this.btnEnter.Size = new System.Drawing.Size(116, 43);
+            this.btnEnter.Size = new System.Drawing.Size(130, 43);
             this.btnEnter.TabIndex = 3;
             this.btnEnter.Text = "E N T E R";
             this.btnEnter.UseVisualStyleBackColor = false;
@@ -142,7 +144,7 @@
             this.showHello.BackColor = System.Drawing.Color.PowderBlue;
             this.showHello.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.showHello.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.showHello.ForeColor = System.Drawing.SystemColors.Window;
+            this.showHello.ForeColor = System.Drawing.SystemColors.InactiveBorder;
             this.showHello.Location = new System.Drawing.Point(531, 68);
             this.showHello.Name = "showHello";
             this.showHello.Size = new System.Drawing.Size(145, 105);
@@ -168,7 +170,7 @@
             this.btnExit.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(140)))), ((int)(((byte)(205)))), ((int)(((byte)(210)))));
             this.btnExit.FlatAppearance.BorderSize = 4;
             this.btnExit.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnExit.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnExit.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnExit.Location = new System.Drawing.Point(473, 490);
             this.btnExit.Name = "btnExit";
             this.btnExit.Size = new System.Drawing.Size(99, 50);
@@ -184,7 +186,7 @@
             this.lblWelcome.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblWelcome.Location = new System.Drawing.Point(55, 56);
             this.lblWelcome.Name = "lblWelcome";
-            this.lblWelcome.Size = new System.Drawing.Size(0, 25);
+            this.lblWelcome.Size = new System.Drawing.Size(0, 31);
             this.lblWelcome.TabIndex = 7;
             this.lblWelcome.Visible = false;
             // 
@@ -192,7 +194,7 @@
             // 
             this.btnHome.BackColor = System.Drawing.Color.Pink;
             this.btnHome.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnHome.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnHome.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnHome.Location = new System.Drawing.Point(581, 490);
             this.btnHome.Name = "btnHome";
             this.btnHome.Size = new System.Drawing.Size(95, 50);
@@ -224,7 +226,7 @@
             this.showName.Enabled = false;
             this.showName.FlatAppearance.BorderSize = 0;
             this.showName.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.showName.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.showName.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.showName.ForeColor = System.Drawing.SystemColors.InactiveCaptionText;
             this.showName.Location = new System.Drawing.Point(531, 176);
             this.showName.Name = "showName";
@@ -272,7 +274,7 @@
             this.lblStudentID.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblStudentID.Location = new System.Drawing.Point(45, 93);
             this.lblStudentID.Name = "lblStudentID";
-            this.lblStudentID.Size = new System.Drawing.Size(106, 24);
+            this.lblStudentID.Size = new System.Drawing.Size(136, 29);
             this.lblStudentID.TabIndex = 13;
             this.lblStudentID.Text = "Student ID :";
             this.lblStudentID.Visible = false;
@@ -283,7 +285,7 @@
             this.txtID.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtID.Location = new System.Drawing.Point(207, 93);
             this.txtID.Name = "txtID";
-            this.txtID.Size = new System.Drawing.Size(187, 29);
+            this.txtID.Size = new System.Drawing.Size(187, 34);
             this.txtID.TabIndex = 14;
             this.txtID.Visible = false;
             // 
@@ -291,10 +293,10 @@
             // 
             this.lblStudentName.AutoSize = true;
             this.lblStudentName.BackColor = System.Drawing.Color.BlanchedAlmond;
-            this.lblStudentName.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblStudentName.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblStudentName.Location = new System.Drawing.Point(45, 131);
             this.lblStudentName.Name = "lblStudentName";
-            this.lblStudentName.Size = new System.Drawing.Size(140, 24);
+            this.lblStudentName.Size = new System.Drawing.Size(148, 25);
             this.lblStudentName.TabIndex = 15;
             this.lblStudentName.Text = "Student Name :";
             this.lblStudentName.Visible = false;
@@ -302,9 +304,9 @@
             // txtStudentName
             // 
             this.txtStudentName.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtStudentName.Location = new System.Drawing.Point(207, 128);
+            this.txtStudentName.Location = new System.Drawing.Point(207, 131);
             this.txtStudentName.Name = "txtStudentName";
-            this.txtStudentName.Size = new System.Drawing.Size(187, 29);
+            this.txtStudentName.Size = new System.Drawing.Size(187, 34);
             this.txtStudentName.TabIndex = 16;
             this.txtStudentName.Visible = false;
             // 
@@ -312,7 +314,7 @@
             // 
             this.btnSave.BackColor = System.Drawing.Color.PaleTurquoise;
             this.btnSave.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnSave.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSave.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnSave.Location = new System.Drawing.Point(270, 490);
             this.btnSave.Name = "btnSave";
             this.btnSave.Size = new System.Drawing.Size(95, 50);
@@ -326,7 +328,7 @@
             // 
             this.btnBack.BackColor = System.Drawing.Color.Pink;
             this.btnBack.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnBack.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnBack.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnBack.Location = new System.Drawing.Point(371, 490);
             this.btnBack.Name = "btnBack";
             this.btnBack.Size = new System.Drawing.Size(96, 50);
@@ -344,19 +346,19 @@
             this.lblMessage.ForeColor = System.Drawing.Color.PaleVioletRed;
             this.lblMessage.Location = new System.Drawing.Point(162, 196);
             this.lblMessage.Name = "lblMessage";
-            this.lblMessage.Size = new System.Drawing.Size(11, 16);
+            this.lblMessage.Size = new System.Drawing.Size(13, 20);
             this.lblMessage.TabIndex = 19;
-            this.lblMessage.Text = "l";
+            this.lblMessage.Text = ".";
             this.lblMessage.Visible = false;
             // 
             // lblStudentBirth
             // 
             this.lblStudentBirth.AutoSize = true;
             this.lblStudentBirth.BackColor = System.Drawing.Color.BlanchedAlmond;
-            this.lblStudentBirth.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblStudentBirth.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblStudentBirth.Location = new System.Drawing.Point(45, 172);
             this.lblStudentBirth.Name = "lblStudentBirth";
-            this.lblStudentBirth.Size = new System.Drawing.Size(156, 24);
+            this.lblStudentBirth.Size = new System.Drawing.Size(167, 25);
             this.lblStudentBirth.TabIndex = 20;
             this.lblStudentBirth.Text = "Student Birthday :";
             this.lblStudentBirth.Visible = false;
@@ -366,7 +368,7 @@
             this.txtStudentBirth.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtStudentBirth.Location = new System.Drawing.Point(207, 169);
             this.txtStudentBirth.Name = "txtStudentBirth";
-            this.txtStudentBirth.Size = new System.Drawing.Size(187, 29);
+            this.txtStudentBirth.Size = new System.Drawing.Size(187, 34);
             this.txtStudentBirth.TabIndex = 21;
             this.txtStudentBirth.Text = "eg. 19970723";
             this.txtStudentBirth.Visible = false;
@@ -375,10 +377,10 @@
             // 
             this.lblStudentGender.AutoSize = true;
             this.lblStudentGender.BackColor = System.Drawing.Color.BlanchedAlmond;
-            this.lblStudentGender.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblStudentGender.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblStudentGender.Location = new System.Drawing.Point(45, 209);
             this.lblStudentGender.Name = "lblStudentGender";
-            this.lblStudentGender.Size = new System.Drawing.Size(153, 24);
+            this.lblStudentGender.Size = new System.Drawing.Size(161, 25);
             this.lblStudentGender.TabIndex = 22;
             this.lblStudentGender.Text = "Student Gender :";
             this.lblStudentGender.Visible = false;
@@ -389,10 +391,10 @@
             this.rdoFemale.BackColor = System.Drawing.Color.BlanchedAlmond;
             this.rdoFemale.Checked = true;
             this.rdoFemale.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.rdoFemale.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.rdoFemale.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.rdoFemale.Location = new System.Drawing.Point(207, 208);
             this.rdoFemale.Name = "rdoFemale";
-            this.rdoFemale.Size = new System.Drawing.Size(91, 28);
+            this.rdoFemale.Size = new System.Drawing.Size(97, 29);
             this.rdoFemale.TabIndex = 23;
             this.rdoFemale.TabStop = true;
             this.rdoFemale.Text = "Female";
@@ -404,10 +406,10 @@
             this.rdoMale.AutoSize = true;
             this.rdoMale.BackColor = System.Drawing.Color.BlanchedAlmond;
             this.rdoMale.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.rdoMale.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.rdoMale.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.rdoMale.Location = new System.Drawing.Point(312, 209);
             this.rdoMale.Name = "rdoMale";
-            this.rdoMale.Size = new System.Drawing.Size(68, 28);
+            this.rdoMale.Size = new System.Drawing.Size(75, 29);
             this.rdoMale.TabIndex = 24;
             this.rdoMale.Text = "Male";
             this.rdoMale.UseVisualStyleBackColor = false;
@@ -434,7 +436,7 @@
             this.showYourInfo.FlatAppearance.BorderColor = System.Drawing.Color.NavajoWhite;
             this.showYourInfo.FlatAppearance.BorderSize = 5;
             this.showYourInfo.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.showYourInfo.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.showYourInfo.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.showYourInfo.Location = new System.Drawing.Point(416, 68);
             this.showYourInfo.Name = "showYourInfo";
             this.showYourInfo.Size = new System.Drawing.Size(104, 191);
@@ -470,10 +472,10 @@
             this.studentWill.Controls.Add(this.cmbWBedtime);
             this.studentWill.Controls.Add(this.cmbWWaketime);
             this.studentWill.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.studentWill.Location = new System.Drawing.Point(4, 22);
+            this.studentWill.Location = new System.Drawing.Point(4, 26);
             this.studentWill.Name = "studentWill";
             this.studentWill.Padding = new System.Windows.Forms.Padding(3);
-            this.studentWill.Size = new System.Drawing.Size(639, 192);
+            this.studentWill.Size = new System.Drawing.Size(639, 188);
             this.studentWill.TabIndex = 1;
             this.studentWill.Text = "Something you want your roommate";
             // 
@@ -491,7 +493,7 @@
             "都不打扫"});
             this.cmbWClean.Location = new System.Drawing.Point(452, 137);
             this.cmbWClean.Name = "cmbWClean";
-            this.cmbWClean.Size = new System.Drawing.Size(129, 24);
+            this.cmbWClean.Size = new System.Drawing.Size(129, 28);
             this.cmbWClean.TabIndex = 58;
             this.cmbWClean.Visible = false;
             // 
@@ -508,7 +510,7 @@
             "Yes"});
             this.cmbWSmoke.Location = new System.Drawing.Point(452, 101);
             this.cmbWSmoke.Name = "cmbWSmoke";
-            this.cmbWSmoke.Size = new System.Drawing.Size(129, 24);
+            this.cmbWSmoke.Size = new System.Drawing.Size(129, 28);
             this.cmbWSmoke.TabIndex = 57;
             this.cmbWSmoke.Visible = false;
             // 
@@ -519,7 +521,7 @@
             this.lblWClean.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblWClean.Location = new System.Drawing.Point(362, 137);
             this.lblWClean.Name = "lblWClean";
-            this.lblWClean.Size = new System.Drawing.Size(58, 20);
+            this.lblWClean.Size = new System.Drawing.Size(75, 25);
             this.lblWClean.TabIndex = 41;
             this.lblWClean.Text = "Clean :";
             this.lblWClean.Visible = false;
@@ -531,7 +533,7 @@
             this.lblWSmoke.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblWSmoke.Location = new System.Drawing.Point(356, 101);
             this.lblWSmoke.Name = "lblWSmoke";
-            this.lblWSmoke.Size = new System.Drawing.Size(67, 20);
+            this.lblWSmoke.Size = new System.Drawing.Size(85, 25);
             this.lblWSmoke.TabIndex = 40;
             this.lblWSmoke.Text = "Smoke :";
             this.lblWSmoke.Visible = false;
@@ -545,16 +547,16 @@
             this.clbWInterests.FormattingEnabled = true;
             this.clbWInterests.ImeMode = System.Windows.Forms.ImeMode.On;
             this.clbWInterests.Items.AddRange(new object[] {
-            "Sport",
-            "Study",
-            "Read",
-            "Music",
-            "Art",
-            "Game",
-            "Movie"});
-            this.clbWInterests.Location = new System.Drawing.Point(134, 52);
+            "sport",
+            "study",
+            "read",
+            "music",
+            "art",
+            "game",
+            "movie"});
+            this.clbWInterests.Location = new System.Drawing.Point(134, 55);
             this.clbWInterests.Name = "clbWInterests";
-            this.clbWInterests.Size = new System.Drawing.Size(129, 121);
+            this.clbWInterests.Size = new System.Drawing.Size(129, 128);
             this.clbWInterests.TabIndex = 54;
             this.clbWInterests.Visible = false;
             // 
@@ -573,7 +575,7 @@
             "内热外热"});
             this.cmbWCharacter.Location = new System.Drawing.Point(134, 23);
             this.cmbWCharacter.Name = "cmbWCharacter";
-            this.cmbWCharacter.Size = new System.Drawing.Size(129, 24);
+            this.cmbWCharacter.Size = new System.Drawing.Size(129, 28);
             this.cmbWCharacter.TabIndex = 53;
             this.cmbWCharacter.Visible = false;
             // 
@@ -584,7 +586,7 @@
             this.lblWCharacter.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblWCharacter.Location = new System.Drawing.Point(19, 17);
             this.lblWCharacter.Name = "lblWCharacter";
-            this.lblWCharacter.Size = new System.Drawing.Size(87, 20);
+            this.lblWCharacter.Size = new System.Drawing.Size(109, 25);
             this.lblWCharacter.TabIndex = 36;
             this.lblWCharacter.Text = "Character :";
             this.lblWCharacter.Visible = false;
@@ -596,7 +598,7 @@
             this.lblWInterests.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblWInterests.Location = new System.Drawing.Point(32, 56);
             this.lblWInterests.Name = "lblWInterests";
-            this.lblWInterests.Size = new System.Drawing.Size(80, 20);
+            this.lblWInterests.Size = new System.Drawing.Size(97, 25);
             this.lblWInterests.TabIndex = 37;
             this.lblWInterests.Text = "Interests :";
             this.lblWInterests.Visible = false;
@@ -608,7 +610,7 @@
             this.lblWBedtime.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblWBedtime.Location = new System.Drawing.Point(341, 27);
             this.lblWBedtime.Name = "lblWBedtime";
-            this.lblWBedtime.Size = new System.Drawing.Size(76, 20);
+            this.lblWBedtime.Size = new System.Drawing.Size(94, 25);
             this.lblWBedtime.TabIndex = 38;
             this.lblWBedtime.Text = "Bedtime :";
             this.lblWBedtime.Visible = false;
@@ -620,7 +622,7 @@
             this.lblWWaketime.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblWWaketime.Location = new System.Drawing.Point(330, 65);
             this.lblWWaketime.Name = "lblWWaketime";
-            this.lblWWaketime.Size = new System.Drawing.Size(88, 20);
+            this.lblWWaketime.Size = new System.Drawing.Size(111, 25);
             this.lblWWaketime.TabIndex = 39;
             this.lblWWaketime.Text = "Waketime :";
             this.lblWWaketime.Visible = false;
@@ -640,7 +642,7 @@
             "After 12 PM"});
             this.cmbWBedtime.Location = new System.Drawing.Point(452, 23);
             this.cmbWBedtime.Name = "cmbWBedtime";
-            this.cmbWBedtime.Size = new System.Drawing.Size(129, 24);
+            this.cmbWBedtime.Size = new System.Drawing.Size(129, 28);
             this.cmbWBedtime.TabIndex = 55;
             this.cmbWBedtime.Visible = false;
             // 
@@ -663,7 +665,7 @@
             "After 12 PM"});
             this.cmbWWaketime.Location = new System.Drawing.Point(452, 61);
             this.cmbWWaketime.Name = "cmbWWaketime";
-            this.cmbWWaketime.Size = new System.Drawing.Size(129, 24);
+            this.cmbWWaketime.Size = new System.Drawing.Size(129, 28);
             this.cmbWWaketime.TabIndex = 56;
             this.cmbWWaketime.Visible = false;
             // 
@@ -683,10 +685,10 @@
             this.studentHabit.Controls.Add(this.lblInterest);
             this.studentHabit.Controls.Add(this.lblCharacter);
             this.studentHabit.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.studentHabit.Location = new System.Drawing.Point(4, 22);
+            this.studentHabit.Location = new System.Drawing.Point(4, 26);
             this.studentHabit.Name = "studentHabit";
             this.studentHabit.Padding = new System.Windows.Forms.Padding(3);
-            this.studentHabit.Size = new System.Drawing.Size(639, 192);
+            this.studentHabit.Size = new System.Drawing.Size(639, 188);
             this.studentHabit.TabIndex = 0;
             this.studentHabit.Text = "Something About You";
             // 
@@ -704,7 +706,7 @@
             "都不打扫"});
             this.cmbClean.Location = new System.Drawing.Point(450, 140);
             this.cmbClean.Name = "cmbClean";
-            this.cmbClean.Size = new System.Drawing.Size(129, 24);
+            this.cmbClean.Size = new System.Drawing.Size(129, 28);
             this.cmbClean.TabIndex = 56;
             this.cmbClean.Visible = false;
             // 
@@ -721,7 +723,7 @@
             "Yes"});
             this.cmbSmoke.Location = new System.Drawing.Point(450, 101);
             this.cmbSmoke.Name = "cmbSmoke";
-            this.cmbSmoke.Size = new System.Drawing.Size(129, 24);
+            this.cmbSmoke.Size = new System.Drawing.Size(129, 28);
             this.cmbSmoke.TabIndex = 55;
             this.cmbSmoke.Visible = false;
             // 
@@ -744,7 +746,7 @@
             "After 12 PM"});
             this.cmbWaketime.Location = new System.Drawing.Point(450, 60);
             this.cmbWaketime.Name = "cmbWaketime";
-            this.cmbWaketime.Size = new System.Drawing.Size(129, 24);
+            this.cmbWaketime.Size = new System.Drawing.Size(129, 28);
             this.cmbWaketime.TabIndex = 54;
             this.cmbWaketime.Visible = false;
             // 
@@ -763,7 +765,7 @@
             "After 12 PM"});
             this.cmbBedtime.Location = new System.Drawing.Point(450, 17);
             this.cmbBedtime.Name = "cmbBedtime";
-            this.cmbBedtime.Size = new System.Drawing.Size(129, 24);
+            this.cmbBedtime.Size = new System.Drawing.Size(129, 28);
             this.cmbBedtime.TabIndex = 53;
             this.cmbBedtime.Visible = false;
             // 
@@ -782,7 +784,7 @@
             "内热外热"});
             this.cmbCharacter.Location = new System.Drawing.Point(125, 17);
             this.cmbCharacter.Name = "cmbCharacter";
-            this.cmbCharacter.Size = new System.Drawing.Size(129, 24);
+            this.cmbCharacter.Size = new System.Drawing.Size(129, 28);
             this.cmbCharacter.TabIndex = 52;
             this.cmbCharacter.Visible = false;
             // 
@@ -795,16 +797,16 @@
             this.clbInterests.FormattingEnabled = true;
             this.clbInterests.ImeMode = System.Windows.Forms.ImeMode.On;
             this.clbInterests.Items.AddRange(new object[] {
-            "Sport",
-            "Study",
-            "Read",
-            "Music",
-            "Art",
-            "Game",
-            "Movie"});
+            "sport",
+            "study",
+            "read",
+            "music",
+            "art",
+            "game",
+            "movie"});
             this.clbInterests.Location = new System.Drawing.Point(125, 60);
             this.clbInterests.Name = "clbInterests";
-            this.clbInterests.Size = new System.Drawing.Size(129, 121);
+            this.clbInterests.Size = new System.Drawing.Size(129, 128);
             this.clbInterests.TabIndex = 51;
             this.clbInterests.Visible = false;
             // 
@@ -815,7 +817,7 @@
             this.lblClean.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblClean.Location = new System.Drawing.Point(360, 140);
             this.lblClean.Name = "lblClean";
-            this.lblClean.Size = new System.Drawing.Size(58, 20);
+            this.lblClean.Size = new System.Drawing.Size(75, 25);
             this.lblClean.TabIndex = 50;
             this.lblClean.Text = "Clean :";
             this.lblClean.Visible = false;
@@ -827,7 +829,7 @@
             this.lblSmoke.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblSmoke.Location = new System.Drawing.Point(354, 101);
             this.lblSmoke.Name = "lblSmoke";
-            this.lblSmoke.Size = new System.Drawing.Size(67, 20);
+            this.lblSmoke.Size = new System.Drawing.Size(85, 25);
             this.lblSmoke.TabIndex = 49;
             this.lblSmoke.Text = "Smoke :";
             this.lblSmoke.Visible = false;
@@ -839,7 +841,7 @@
             this.lblWaketime.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblWaketime.Location = new System.Drawing.Point(335, 60);
             this.lblWaketime.Name = "lblWaketime";
-            this.lblWaketime.Size = new System.Drawing.Size(88, 20);
+            this.lblWaketime.Size = new System.Drawing.Size(111, 25);
             this.lblWaketime.TabIndex = 48;
             this.lblWaketime.Text = "Waketime :";
             this.lblWaketime.Visible = false;
@@ -851,7 +853,7 @@
             this.lblBedtime.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblBedtime.Location = new System.Drawing.Point(348, 21);
             this.lblBedtime.Name = "lblBedtime";
-            this.lblBedtime.Size = new System.Drawing.Size(76, 20);
+            this.lblBedtime.Size = new System.Drawing.Size(94, 25);
             this.lblBedtime.TabIndex = 47;
             this.lblBedtime.Text = "Bedtime :";
             this.lblBedtime.Visible = false;
@@ -863,7 +865,7 @@
             this.lblInterest.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblInterest.Location = new System.Drawing.Point(31, 54);
             this.lblInterest.Name = "lblInterest";
-            this.lblInterest.Size = new System.Drawing.Size(80, 20);
+            this.lblInterest.Size = new System.Drawing.Size(97, 25);
             this.lblInterest.TabIndex = 46;
             this.lblInterest.Text = "Interests :";
             this.lblInterest.Visible = false;
@@ -875,7 +877,7 @@
             this.lblCharacter.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblCharacter.Location = new System.Drawing.Point(21, 17);
             this.lblCharacter.Name = "lblCharacter";
-            this.lblCharacter.Size = new System.Drawing.Size(87, 20);
+            this.lblCharacter.Size = new System.Drawing.Size(109, 25);
             this.lblCharacter.TabIndex = 45;
             this.lblCharacter.Text = "Character :";
             this.lblCharacter.Visible = false;
@@ -900,7 +902,7 @@
             this.txtRoomName.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtRoomName.Location = new System.Drawing.Point(300, 172);
             this.txtRoomName.Name = "txtRoomName";
-            this.txtRoomName.Size = new System.Drawing.Size(187, 29);
+            this.txtRoomName.Size = new System.Drawing.Size(187, 34);
             this.txtRoomName.TabIndex = 60;
             this.txtRoomName.Visible = false;
             // 
@@ -912,7 +914,7 @@
             this.lblRoomName.ForeColor = System.Drawing.Color.Black;
             this.lblRoomName.Location = new System.Drawing.Point(202, 172);
             this.lblRoomName.Name = "lblRoomName";
-            this.lblRoomName.Size = new System.Drawing.Size(66, 24);
+            this.lblRoomName.Size = new System.Drawing.Size(84, 29);
             this.lblRoomName.TabIndex = 55;
             this.lblRoomName.Text = "Name:";
             this.lblRoomName.Visible = false;
@@ -921,7 +923,7 @@
             // 
             this.lblInfoMessage.AutoSize = true;
             this.lblInfoMessage.BackColor = System.Drawing.Color.Transparent;
-            this.lblInfoMessage.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblInfoMessage.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblInfoMessage.ForeColor = System.Drawing.Color.PaleVioletRed;
             this.lblInfoMessage.Location = new System.Drawing.Point(27, 503);
             this.lblInfoMessage.Name = "lblInfoMessage";
@@ -951,7 +953,7 @@
             this.txtRoomID.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtRoomID.Location = new System.Drawing.Point(300, 122);
             this.txtRoomID.Name = "txtRoomID";
-            this.txtRoomID.Size = new System.Drawing.Size(187, 29);
+            this.txtRoomID.Size = new System.Drawing.Size(187, 34);
             this.txtRoomID.TabIndex = 54;
             this.txtRoomID.Visible = false;
             // 
@@ -961,9 +963,9 @@
             this.lblRoomID.BackColor = System.Drawing.Color.MistyRose;
             this.lblRoomID.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblRoomID.ForeColor = System.Drawing.Color.Black;
-            this.lblRoomID.Location = new System.Drawing.Point(148, 122);
+            this.lblRoomID.Location = new System.Drawing.Point(156, 122);
             this.lblRoomID.Name = "lblRoomID";
-            this.lblRoomID.Size = new System.Drawing.Size(113, 24);
+            this.lblRoomID.Size = new System.Drawing.Size(146, 29);
             this.lblRoomID.TabIndex = 53;
             this.lblRoomID.Text = "Roomate ID:";
             this.lblRoomID.Visible = false;
@@ -974,7 +976,7 @@
             this.txtRoomBirth.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtRoomBirth.Location = new System.Drawing.Point(300, 231);
             this.txtRoomBirth.Name = "txtRoomBirth";
-            this.txtRoomBirth.Size = new System.Drawing.Size(187, 29);
+            this.txtRoomBirth.Size = new System.Drawing.Size(187, 34);
             this.txtRoomBirth.TabIndex = 49;
             this.txtRoomBirth.Visible = false;
             // 
@@ -986,7 +988,7 @@
             this.lblRoomBirth.ForeColor = System.Drawing.Color.Black;
             this.lblRoomBirth.Location = new System.Drawing.Point(182, 234);
             this.lblRoomBirth.Name = "lblRoomBirth";
-            this.lblRoomBirth.Size = new System.Drawing.Size(87, 24);
+            this.lblRoomBirth.Size = new System.Drawing.Size(112, 29);
             this.lblRoomBirth.TabIndex = 48;
             this.lblRoomBirth.Text = "Birthday :";
             this.lblRoomBirth.Visible = false;
@@ -1011,7 +1013,7 @@
             // 
             this.Roomlist.BackColor = System.Drawing.Color.Honeydew;
             this.Roomlist.Enabled = false;
-            this.Roomlist.Font = new System.Drawing.Font("Adobe Devanagari", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Roomlist.Font = new System.Drawing.Font("Adobe Devanagari", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Roomlist.Location = new System.Drawing.Point(31, 137);
             this.Roomlist.Multiline = true;
             this.Roomlist.Name = "Roomlist";
@@ -1034,17 +1036,35 @@
             this.txtWelcome.Text = "  Welcome, administrator!\r\n  Here is result of roomats:";
             this.txtWelcome.Visible = false;
             // 
+            // lblNoroom
+            // 
+            this.lblNoroom.AutoSize = true;
+            this.lblNoroom.BackColor = System.Drawing.Color.MistyRose;
+            this.lblNoroom.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblNoroom.Location = new System.Drawing.Point(161, 169);
+            this.lblNoroom.Name = "lblNoroom";
+            this.lblNoroom.Size = new System.Drawing.Size(0, 29);
+            this.lblNoroom.TabIndex = 62;
+            this.lblNoroom.Visible = false;
+            // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 17F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.AliceBlue;
             this.ClientSize = new System.Drawing.Size(706, 552);
-            this.Controls.Add(this.txtWelcome);
+            this.Controls.Add(this.txtID);
+            this.Controls.Add(this.lblStudentID);
+            this.Controls.Add(this.rdoFemale);
+            this.Controls.Add(this.lblStudentGender);
+            this.Controls.Add(this.txtStudentName);
+            this.Controls.Add(this.txtStudentBirth);
+            this.Controls.Add(this.lblStudentName);
+            this.Controls.Add(this.lblStudentBirth);
+            this.Controls.Add(this.lblNoroom);
             this.Controls.Add(this.lblMessage);
             this.Controls.Add(this.btnEnter);
             this.Controls.Add(this.txtStudentID);
-            this.Controls.Add(this.lblPlease);
             this.Controls.Add(this.txtRoomBirth);
             this.Controls.Add(this.txtRoomName);
             this.Controls.Add(this.txtRoomID);
@@ -1061,24 +1081,18 @@
             this.Controls.Add(this.showLogo);
             this.Controls.Add(this.showHello);
             this.Controls.Add(this.showName);
-            this.Controls.Add(this.lblStudentID);
-            this.Controls.Add(this.txtID);
-            this.Controls.Add(this.lblStudentName);
-            this.Controls.Add(this.txtStudentName);
             this.Controls.Add(this.rdoMale);
-            this.Controls.Add(this.rdoFemale);
-            this.Controls.Add(this.lblStudentGender);
-            this.Controls.Add(this.lblStudentBirth);
-            this.Controls.Add(this.txtStudentBirth);
-            this.Controls.Add(this.btnInfomation);
-            this.Controls.Add(this.showYourInfo);
             this.Controls.Add(this.tab);
             this.Controls.Add(this.btnFindRoomate);
             this.Controls.Add(this.button3);
-            this.Controls.Add(this.showRoomateInfo);
+            this.Controls.Add(this.showYourInfo);
             this.Controls.Add(this.btnRoomInfo);
-            this.Controls.Add(this.showInformation);
+            this.Controls.Add(this.lblPlease);
+            this.Controls.Add(this.txtWelcome);
+            this.Controls.Add(this.btnInfomation);
             this.Controls.Add(this.Roomlist);
+            this.Controls.Add(this.showRoomateInfo);
+            this.Controls.Add(this.showInformation);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Form1";
@@ -1163,6 +1177,7 @@
         private System.Windows.Forms.TextBox txtRoomName;
         private System.Windows.Forms.TextBox Roomlist;
         private System.Windows.Forms.TextBox txtWelcome;
+        private System.Windows.Forms.Label lblNoroom;
     }
 }
 

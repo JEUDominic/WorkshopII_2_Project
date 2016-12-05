@@ -420,7 +420,17 @@ namespace Karma
                     else
                     {
                         myred.Close();
-                        String choose = "INSERT INTO `roomate`(`roomateA`, `roomateB`) VALUES ('" + sid[0] + "','" + id + "')";
+                        String choose;
+                        if (sid[0].Equals(id))
+                        {
+
+                           choose = "INSERT INTO `roomate`(`roomateA`, `roomateB`) VALUES ('" + sid[1] + "','" + id + "')";
+
+                        }else
+                        {
+                            choose = "INSERT INTO `roomate`(`roomateA`, `roomateB`) VALUES ('" + sid[0] + "','" + id + "')";
+
+                        }
                         MySqlCommand mycommm = new MySqlCommand(choose, mycon);
 
                         MySqlDataReader myread = null;
@@ -431,7 +441,15 @@ namespace Karma
                         else
                         {
                             myread.Close();
-                            String changestate = "UPDATE `information` SET `state`= 1 WHERE `studentID` = '" + id + "' OR `studentID` = '" + sid[0] + "'";
+                            String changestate;
+                            if (sid[0].Equals(id))
+                            {
+                                changestate = "UPDATE `information` SET `state`= 1 WHERE `studentID` = '" + id + "' OR `studentID` = '" + sid[1] + "'";
+
+                            }else
+                            {
+                                changestate = "UPDATE `information` SET `state`= 1 WHERE `studentID` = '" + id + "' OR `studentID` = '" + sid[0] + "'";
+                            }
                             MySqlCommand mycoms = new MySqlCommand(changestate, mycon);
 
                             MySqlDataReader mychange = null;

@@ -135,7 +135,7 @@ namespace Karma
             }
             else
             {
-                String[] Str = { "Sport", "Study", "Read", "Music", "Art", "Game", "Movie" };
+                String[] Str = { "sport", "study", "read", "music", "art", "game", "movie" };
 
                 txtID.Text = studentInfo.getStudentID();
                 txtStudentName.Text = studentInfo.getStudentName();
@@ -231,6 +231,7 @@ namespace Karma
             lblRoomID.Visible = false;
             lblRoomName.Visible = false;
             lblRoomBirth.Visible = false;
+            lblNoroom.Visible = false;
             txtRoomID.Visible = false;
             txtRoomName.Visible = false;
             txtRoomBirth.Visible = false;
@@ -275,6 +276,7 @@ namespace Karma
             lblRoomID.Visible = false;
             lblRoomName.Visible = false;
             lblRoomBirth.Visible = false;
+            lblNoroom.Visible = false;
             txtRoomID.Visible = false;
             txtRoomName.Visible = false;
             txtRoomBirth.Visible = false;
@@ -475,7 +477,13 @@ namespace Karma
                 StudentInfo studentR = Check.CheckStudent(roommateID);
                 if (studentR == null)
                 {
-                    MessageBox.Show(" Sorry your roomate still in the way.");
+                    lblNoroom.Text = "Sorry your roomate \n still in the way.";
+                    lblNoroom.Visible = true;
+                    //MessageBox.Show(" Sorry your roomate \n still in the way.");
+                    //txtRoomName.Text = roommate;
+                    showRoomateInfo.Visible = true;
+                    btnRoomInfo.Visible = true;
+                    // MessageBox.Show(" Sorry your roomate still in the way.");
                 }
                 else
                 {
@@ -496,16 +504,18 @@ namespace Karma
                 //}
             }else
             {
-                MessageBox.Show(" Sorry your roomate still in the way.");
+                lblNoroom.Text = "Sorry your roomate still in the way.";
+                lblNoroom.Visible = true;
+                //MessageBox.Show(" Sorry your roomate still in the way.");
                 //txtRoomName.Text = roommate;
                 showRoomateInfo.Visible = true;
                 btnRoomInfo.Visible = true;
-                lblRoomID.Visible = true;
-                lblRoomName.Visible = true;
-                lblRoomBirth.Visible = true;
-                txtRoomID.Visible = true;
-                txtRoomName.Visible = true;
-                txtRoomBirth.Visible = true;
+                //lblRoomID.Visible = true;
+                //lblRoomName.Visible = true;
+                //lblRoomBirth.Visible = true;
+                //txtRoomID.Visible = true;
+                //txtRoomName.Visible = true;
+                //txtRoomBirth.Visible = true;
             }
 
         }
